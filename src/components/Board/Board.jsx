@@ -97,7 +97,6 @@ const Board = () => {
 
   const handletDragStart = (e, item) => {
     console.log("Starting to drag", item);
-
     dragItemNode.current = e.target;
     dragItemNode.current.addEventListener("dragend", handleDragEnd);
     dragItem.current = item;
