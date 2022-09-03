@@ -96,8 +96,8 @@ const Board = () => {
   };
 
   const handletDragStart = (e, item) => {
-    // console.log("Starting to drag", item);
-
+    console.log("Starting to drasssg", item);
+    console.log("1234");
     dragItemNode.current = e.target;
     dragItemNode.current.addEventListener("dragend", handleDragEnd);
     dragItem.current = item;
