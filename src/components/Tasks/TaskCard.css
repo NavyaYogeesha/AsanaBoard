@@ -1,0 +1,36 @@
+.tasks {
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* position: absolute; */
+}
+.draggable {
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+}
+.tasks:hover {
+  border: 1px solid rgba(95, 87, 87, 0.795);
+}
+.status {
+  font-size: 12px;
+  /* border: 1px solid black; */
+  max-width: max-content;
+  padding: 5px;
+  margin-top: 6px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  text-align: center;
+}
+.status:hover {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.inputTask:focus,
+.inputTask:active {
+  outline: none;
+}
